@@ -1,10 +1,14 @@
 :root {
   --black-900: #080808;
   --black-500: #151515;
+  --black-400: #202020;
+  --gray-900: #3b3b3b;
   --gray-500: #bcbcbc;
   --white: #fff;
 
   --accent-1: #2378da;
+  --accent-1-dark: #1f6dc5;
+
   --background-1: #1e1e1e;
-  --background-2: #161616;
+  --background-2: #181818;
 }

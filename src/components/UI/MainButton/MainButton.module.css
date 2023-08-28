@@ -1,0 +1,24 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  background-color: var(--accent-1);
+  transition: all .3s ease;
+}
+
+.btn:hover {
+  background-color: var(--accent-1-dark);
+}
+
+.btn__img {
+  font-size: 22px;
+}
