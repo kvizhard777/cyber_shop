@@ -28,3 +28,20 @@ a {
 
   background-color: var(--gray-900);
 }
+
+/* Scroll */
+::-webkit-scrollbar{
+  width: 6px;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--background-1);
+}
+
+::-webkit-scrollbar-thumb {
+  width: 6px;
+  border-radius: 12px;
+
+  background-color: var(--gray-900);
+}

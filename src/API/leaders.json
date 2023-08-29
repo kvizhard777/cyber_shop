@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "img": "https://www.minecraft.net/content/dam/games/minecraft/key-art/SUPM_Game-Image_One-Vanilla_672x400.jpg",
+    "title": "Ключ Java + Bedrock Minecraft",
+    "description": "Оригинальный лицензионный ключ Java + Bedrock Minecraft",
+    "category": 1,
+    "price": 1499
+  },
+
+  {
+    "id": 2,
+    "img": "https://pirimidtech.com/wp-content/uploads/2023/03/ChatGPT.jpeg",
+    "title": "Аккаунт ChatGPT (без PRO)",
+    "description": "Аккаунт для ChatGPT без PRO подписки",
+    "category": 2,
+    "price": 100
+  },
+
+  {
+    "id": 3,
+    "img": "https://techjioblog.com/wp-content/uploads/2020/03/nordvpn_cover.jpg",
+    "title": "NordVPN",
+    "description": "Ключ NordVPN",
+    "category": 4,
+    "price": 600
+  }
+]

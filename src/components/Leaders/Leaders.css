@@ -1,0 +1,14 @@
+.leaders {
+  margin-top: 260px;
+}
+
+.leaders__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.leaders__cards {
+  display: grid;
+  gap: 30px;
+}
