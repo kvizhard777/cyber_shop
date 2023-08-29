@@ -82,7 +82,22 @@
 /* Categories */
 .categories__list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 30px;
+}
+
+/* Media */
+@media screen and (max-width: 750px) {
+  .categories__list {
+    align-items: baseline;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .categories__list {
+    gap: 20px;
+  }
 }
