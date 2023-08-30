@@ -24,6 +24,8 @@
 }
 
 .small-card__wrapper {
+  width: 100%;
+  
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -31,7 +33,6 @@
 
 .small-card__texts {
   width: 100%;
-  max-width: 260px;
 
   display: flex;
   flex-direction: column;
