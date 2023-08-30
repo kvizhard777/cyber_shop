@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "img": "https://www.minecraft.net/content/dam/games/minecraft/key-art/SUPM_Game-Image_One-Vanilla_672x400.jpg",
+    "title": "Ключ Java + Bedrock Minecraft",
+    "description": "Оригинальный лицензионный ключ Java + Bedrock Minecraft",
+    "category": 1,
+    "price": 1499
+  },
+
+  {
+    "id": 2,
+    "img": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000021401/59686225dba24636062a421593effdb4fe136bbfd67b11c621fe92ed36a65734",
+    "title": "Ключ Minecraft Dungeons",
+    "description": "Оригинальный лицензионный ключ Minecraft Dungeons",
+    "category": 1,
+    "price": 1099
+  },
+
+  {
+    "id": 3,
+    "img": "https://i.ytimg.com/vi/eNttPRIuk8s/maxresdefault.jpg",
+    "title": "Плащ Optifine",
+    "description": "Оригинальный плащ Optifine, который будет виден всем игрокам",
+    "category": 1,
+    "price": 599
+  },
+
+  {
+    "id": 4,
+    "img": "https://pirimidtech.com/wp-content/uploads/2023/03/ChatGPT.jpeg",
+    "title": "Аккаунт ChatGPT (без PRO)",
+    "description": "Аккаунт ChatGPT без PRO подписки",
+    "category": 2,
+    "price": 100
+  },
+
+  {
+    "id": 5,
+    "img": "https://pirimidtech.com/wp-content/uploads/2023/03/ChatGPT.jpeg",
+    "title": "Аккаунт ChatGPT (PRO)",
+    "description": "Аккаунт ChatGPT с PRO подпиской",
+    "category": 2,
+    "price": 899
+  },
+
+  {
+    "id": 6,
+    "img": "https://mobile-review.com/all/wp-content/uploads/2021/07/1.png",
+    "title": "Premium аккаунт Spotify",
+    "description": "Premium аккаунт Spotify (слушайте музыку без рекламы)",
+    "category": 3,
+    "price": 500
+  },
+
+  {
+    "id": 7,
+    "img": "https://techjioblog.com/wp-content/uploads/2020/03/nordvpn_cover.jpg",
+    "title": "Ключ NordVPN",
+    "description": "Оригинальный ключ NordVPN",
+    "category": 4,
+    "price": 600
+  }
+]

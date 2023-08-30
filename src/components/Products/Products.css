@@ -1,0 +1,35 @@
+/* Products */
+.products {
+  margin-top: 100px;
+}
+
+.products__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.products__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+/* Media */
+@media screen and (max-width: 960px) {
+  .products__cards {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .products__cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .products {
+    margin-top: 80px;
+  }
+}
