@@ -1,5 +1,6 @@
+/* Leaders */
 .leaders {
-  margin-top: 260px;
+  margin-top: 80px;
 }
 
 .leaders__inner {
@@ -9,6 +10,14 @@
 }
 
 .leaders__cards {
-  display: grid;
-  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Media */
+@media screen and (max-width: 370px) {
+  .leaders {
+    margin-top: 60px;
+  }
 }

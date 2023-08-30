@@ -1,5 +1,13 @@
+/* Section Title */
 .section-title {
   font-size: 28px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+/* Media */
+@media screen and (max-width: 350px) {
+  .section-title {
+    font-size: 24px;
+  }
 }

@@ -24,5 +24,14 @@
     "description": "Ключ NordVPN",
     "category": 4,
     "price": 600
+  },
+
+  {
+    "id": 4,
+    "img": "https://techjioblog.com/wp-content/uploads/2020/03/nordvpn_cover.jpg",
+    "title": "Premium аккаунт Spotify",
+    "description": "Premium аккаунт Spotify (слушайте музыку без рекламы)",
+    "category": 3,
+    "price": 500
   }
 ]

@@ -1,11 +1,6 @@
 /* Header */
 .header {
   padding: 20px;
-  position: fixed;
-
-  width: 100%;
-  top: 0;
-
   background-color: var(--background-2);
 }
 
