@@ -1,0 +1,28 @@
+/* Banners */
+.banners {
+  margin-top: 65px;
+}
+
+.banners__img {
+  width: 100%;
+}
+
+.banners__img-image {
+  border-radius: 20px;
+}
+
+/* Swiper */
+.swiper-pagination-bullet {
+  background-color: var(--white) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--accent-1) !important;
+}
+
+/* Media */
+@media screen and (max-width: 360px) {
+  .banners {
+    margin-top: 50px;
+  }
+}

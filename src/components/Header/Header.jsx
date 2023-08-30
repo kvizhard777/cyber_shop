@@ -8,16 +8,11 @@ import BurgerIcon from '../BurgerMenu/BurgerIcon'
 import BurgerMenu from '../BurgerMenu/BurgerMenu'
 
 import { FiMenu } from "react-icons/fi"
+import useWindowWidth from '../../hooks/useWindowWidth'
 
 const Header = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+  const windowWidth = useWindowWidth()
   const [isBurgerMenuOpen, setIsBurgerMenuOpen] = useState(false)
-
-  useEffect(() => {
-    const handleResize = () => setWindowWidth(window.innerWidth)
-    window.addEventListener('resize', handleResize)
-    return () => window.removeEventListener('resize', handleResize)
-  }, [])
 
   const handleBurgerIconClick = () => setIsBurgerMenuOpen(!isBurgerMenuOpen)
   const handleCloseBurgerMenu = () => setIsBurgerMenuOpen(false)
