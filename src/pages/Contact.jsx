@@ -1,15 +1,15 @@
 import React from 'react'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
-import AgreementBlock from '../components/AgreementBlock/AgreementBlock'
+import Contacts from '../components/Contacts/Contacts'
 
-const Agreement = () => {
+const Contact = () => {
   return (
     <div className='wrapper'>
       <Header />
       <div className="main">
         <div className="container">
-          <AgreementBlock />
+          <Contacts />
         </div>
       </div>
       <Footer />
@@ -17,4 +17,4 @@ const Agreement = () => {
   )
 }
 
-export default Agreement
+export default Contact

@@ -16,8 +16,8 @@ const Footer = () => {
           </div>
 
           <ul className="footer__list">
-            <FooterItem link='/' text="Соглашение" />
-            <FooterItem link='/' text="Связаться" />
+            <FooterItem to='/agreement' text="Соглашение" />
+            <FooterItem to='/contact' text="Связаться" />
           </ul>
         </div>
 

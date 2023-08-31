@@ -2,6 +2,11 @@
 @import 'vars.css';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -31,6 +36,21 @@ a {
   border-radius: 10px;
 
   background-color: var(--gray-900);
+}
+
+/* Footer Down */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+}
+
+.footer {
+  flex-shrink: 0;
 }
 
 /* Scroll */

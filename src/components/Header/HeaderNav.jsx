@@ -9,10 +9,10 @@ const HeaderNav = () => {
   return (
     <nav className="nav">
       <ul className="nav__list">
-        <HeaderItem link='/main' text="Главная" />
-        <HeaderItem link='/agreement' text="Соглашение" />
-        <HeaderItem link='/support' text="Поддержка" />
-        <HeaderItem link='#contacts' text="Контакты" />
+        <HeaderItem to='/' text="Главная" />
+        <HeaderItem to='/agreement' text="Соглашение" />
+        <HeaderItem to='/support' text="Поддержка" />
+        <HeaderItem to='/contact' text="Контакты" />
       </ul>
 
       <MainButton text="Корзина" image={<FiShoppingCart />} />
