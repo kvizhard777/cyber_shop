@@ -1,0 +1,32 @@
+/* Support */
+.support {
+  margin-top: 60px;
+}
+
+.support__block {
+  padding: 20px;
+  border-radius: 10px;
+
+  background-color: var(--black-500);
+}
+
+.support__text {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.support__link {
+  color: var(--accent-1);
+  cursor: pointer;
+}
+
+/* Media */
+@media screen and (max-width: 425px) {
+  .support__block {
+    padding: 10px;
+  }
+
+  .support__text {
+    font-size: 16px;
+  }
+}
