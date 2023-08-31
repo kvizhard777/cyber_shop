@@ -4,6 +4,7 @@ import HeaderItem from './HeaderItem'
 import MainButton from '../UI/MainButton/MainButton'
 
 import { FiShoppingCart } from "react-icons/fi";
+import { Link } from 'react-router-dom';
 
 const HeaderNav = () => {
   return (
@@ -15,7 +16,9 @@ const HeaderNav = () => {
         <HeaderItem to='/contact' text="Контакты" />
       </ul>
 
-      <MainButton text="Корзина" image={<FiShoppingCart />} />
+      <Link to='/cart'>
+        <MainButton text="Корзина" image={<FiShoppingCart />} />
+      </Link>
     </nav>
   )
 }

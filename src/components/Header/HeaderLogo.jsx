@@ -1,13 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const HeaderLogo = ({ link }) => {
+const HeaderLogo = ({ to }) => {
   return (
-    <a href={link}>
+    <Link to={to}>
       <div className="logo">
         <span className='logo__title'>Cyber<span className="blue">Shop</span></span>
         <span className='logo__subtitle'>Магазин цифровых товаров</span>
       </div>
-    </a>
+    </Link>
   )
 }
 

@@ -23,7 +23,7 @@ const Header = () => {
 
         <div className="header__inner">
           <div className="header__section">
-            <HeaderLogo link='/' />
+            <HeaderLogo to='/' />
 
             {windowWidth <= 1110
               ? (<BurgerIcon image={<FiMenu />} onClick={handleBurgerIconClick} />)
