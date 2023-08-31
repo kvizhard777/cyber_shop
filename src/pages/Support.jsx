@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
+import SupportBlock from '../components/SupportBlock/SupportBlock'
 
 const Support = () => {
   return (
@@ -8,7 +9,7 @@ const Support = () => {
       <Header />
       <div className="main">
         <div className="container">
-          <div>Support</div>
+          <SupportBlock />
         </div>
       </div>
       <Footer />
