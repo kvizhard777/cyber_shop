@@ -4,6 +4,7 @@ import './MainBlock.css'
 import Leaders from '../Leaders/Leaders'
 import Products from '../Products/Products'
 import Banners from '../Banners/Banners'
+import Contacts from '../Contacts/Contacts'
 
 const MainBlock = () => {
   return (
@@ -11,6 +12,7 @@ const MainBlock = () => {
       <Banners />
       <Leaders />
       <Products />
+      <Contacts />
     </main>
   )
 }
