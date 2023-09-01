@@ -10,25 +10,25 @@ const HeaderCategories = () => {
         <HeaderCategoriesItem
           text="Minecraft"
           img={<Icon icon="mdi:minecraft" width='24px' />}
-          link='/'
+          to='/minecraft'
         />
 
         <HeaderCategoriesItem
           text="ChatGPT"
           img={<Icon icon="arcticons:openai-chatgpt" width='24px' />}
-          link='/'
+          to='/chatgpt'
         />
 
         <HeaderCategoriesItem
           text="Spotify"
           img={<Icon icon="mdi:spotify" width='24px' />}
-          link='/'
+          to='/spotify'
         />
 
         <HeaderCategoriesItem
           text="VPN"
           img={<Icon icon="mdi:vpn" width='24px' />}
-          link='/'
+          to='/vpn'
         />
       </ul>
     </div>
