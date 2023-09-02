@@ -1,8 +1,9 @@
 import React from 'react'
 import './BigCard.css'
 import MainButton from '../UI/MainButton/MainButton'
+import BuyMenu from '../BuyMenu/BuyMenu'
 
-const BigCard = ({ img, alt, title, subtitle, price, btnText, btnImg }) => {
+const BigCard = ({ img, alt, title, subtitle, price, btnText, btnImg, onClick }) => {
   return (
     <div className="big-card">
       <div className="big-card__img">
@@ -17,7 +18,7 @@ const BigCard = ({ img, alt, title, subtitle, price, btnText, btnImg }) => {
 
         <div className="big-card__bottom">
           <div className="big-card__price">Цена: {price}₽</div>
-          <MainButton image={btnImg} text={btnText} />
+          <MainButton image={btnImg} text={btnText} onClick={onClick} />
         </div>
       </div>
     </div>

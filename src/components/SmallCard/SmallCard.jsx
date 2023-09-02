@@ -2,7 +2,7 @@ import React from 'react'
 import './SmallCard.css'
 import SmallCardBtn from './SmallCardBtn'
 
-const SmallCard = ({ img, alt, title, subtitle, price, btnImg, btnText }) => {
+const SmallCard = ({ img, alt, title, subtitle, price, btnImg, btnText, onClick }) => {
   return (
     <div className="small-card">
       <div className="small-card__img">
@@ -17,7 +17,7 @@ const SmallCard = ({ img, alt, title, subtitle, price, btnImg, btnText }) => {
 
         <div className="small-card__bottom">
           <span className="small-card__price">{price}₽</span>
-          <SmallCardBtn img={btnImg} text={btnText} />
+          <SmallCardBtn img={btnImg} text={btnText} onClick={onClick} />
         </div>
       </div>
       
