@@ -16,8 +16,8 @@ const HeaderNav = () => {
         <HeaderItem to='/contact' text="Контакты" />
       </ul>
 
-      <Link to='/cart'>
-        <MainButton text="Корзина" image={<FiShoppingCart />} />
+      <Link to='/products'>
+        <MainButton text="Купить" image={<FiShoppingCart />} />
       </Link>
     </nav>
   )

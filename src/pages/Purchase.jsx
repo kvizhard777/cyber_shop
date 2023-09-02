@@ -1,15 +1,15 @@
 import React from 'react'
-import Footer from '../components/Footer/Footer'
-import CartBlock from '../components/CartBlock/CartBlock'
 import Header from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
+import Products from '../components/Products/Products'
 
-const Cart = () => {
+const Purchase = () => {
   return (
     <div className='wrapper'>
       <Header />
       <div className="main">
         <div className="container">
-          <CartBlock />
+          <Products />
         </div>
       </div>
       <Footer />
@@ -17,4 +17,4 @@ const Cart = () => {
   )
 }
 
-export default Cart
+export default Purchase

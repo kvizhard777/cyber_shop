@@ -23,7 +23,7 @@ const Products = () => {
       <div className="container">
 
         <div className="products__inner">
-          <SectionTitle text=" Все товары" />
+          <SectionTitle text="Все товары" />
 
           {isLoading
             ? (<LoadingText text="Идёт загрузка..." />)
